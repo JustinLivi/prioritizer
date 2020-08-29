@@ -1,0 +1,40 @@
+{
+  "name": "prioritizer",
+  "version": "0.0.0",
+  "description": "Convert a number of inputs into a priority score",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "priority",
+    "score",
+    "rank"
+  ],
+  "author": "Justin Livi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "jest": "^26.4.2",
+    "jest-extended": "^0.11.5",
+    "prettier": "^2.1.1",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.161",
+    "@types/node": "^14.6.2",
+    "lodash": "^4.17.20"
+  }
+}

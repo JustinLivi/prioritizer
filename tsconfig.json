@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "lib": ["es2018", "DOM"],
+    "paths": {
+      "jest-extended": ["jest-extended"]
+    },
+    "typeRoots": ["./src/@types", "node_modules/@types"],
+    "types": ["node"]
+  },
+  "exclude": ["**/node_modules", "**/coverage", "**/build", "**/*.test.*", "**/scripts"]
+}
